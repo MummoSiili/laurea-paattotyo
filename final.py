@@ -10,13 +10,7 @@ def add_value():
 
 def main():
     # Testataan onko muistio.dat olemassa
-    try:
-        with open('muistio.dat', 'rb') as file:
-            pass
-    except Exception as e:
-        print('Virhe tiedostossa, luodaan uusi muistio.dat.')
-        dummy_file = open('muistio.dat', 'w')
-        dummy_file.close()
+    
 
     while True:
 
